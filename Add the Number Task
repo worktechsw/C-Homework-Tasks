@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int getValueFromUser()
+{
+int amount;
+cout<<"\nEnter an integer:";
+cin>>amount;
+return amount;
+}
+
+int main() 
+{
+int number {getValueFromUser()};
+int number2 {getValueFromUser()};
+
+cout << "\n\nIf you add the two amounts shown above together then the total you get is "<<number+number2;
+cout << "\n\nIf you then double the total above your new amount is "<<number+number2*3;
+cout << "\n\nHowever, if you quadruple the original total you now get "<<number+number2*7;
+return 0;
+} 
